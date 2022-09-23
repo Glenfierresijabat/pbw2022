@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas 3</title>
+</head>
+<body>
+<center>
+    <h1>ADU CINEMATIC</h1>
+    <h5>proses belajar mandiri - Glen fierre sijabat</h5>
+</center>
+
+<div align="center">
+    <button onclick="playPause()">Mulai/berhenti</button>
+    <br> <br>
+
+    <button onclick="makeBig()">Lebih Besar</button>
+
+    <button onclick="makeSmall()">lebih Kecil</button>
+
+    <button onclick="makeNormal()">Normal Kembali</button>
+
+    <button onclick="kontrol()">Aktifkan Kontrol</button>
+
+    <button onclick="kons()">Nonaktifkan kontrol</button>
+
+    <button onclick="loop()">Ulangi vidio secara terus menerus(otomatis)</button>
+
+    <button onclick="suarahidup()">Mute suara</button>
+
+    <button onclick="suaraMati()">Bunyikan suara</button>
+
+</div>
+    <br> <br> <br>
+
+<center>
+
+    <video id="myvideo" width="300">
+        <source src="cinematic motor.mp4" type="video/mp4">
+        <br> <br>
+    </video>
+
+</center>
+
+<script> 
+        var pidio = document.getElementById("myvideo")
+
+        function playPause() {
+            if (pidio.paused)
+            pidio.play();
+            else
+             pidio.pause();
+        }
+
+        function makeBig() {
+            pidio.width = 450;
+        }
+        function makeSmall() {
+            pidio.width = 150;
+        }
+        function makeNormal() {
+            pidio.width = 350;       
+        }
+        function kontrol() {
+            pidio.controls = true;
+        }
+        function kons() {
+            pidio.controls = false;
+        }
+        function loop() {
+            pidio.loop = true;
+        }
+        function suarahidup() {
+            pidio.muted = true;
+        }
+        function suaraMati() {
+            pidio.muted = false;
+        }
+
+
+</script>
+<center>
+<b><p> #cinematicmotor #cinematicBareng </div></p></b>
+</center>
+
+</body>
