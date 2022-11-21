@@ -1,0 +1,75 @@
+body{ 
+    background: #35A9DB; 
+    font-family: roboto; 
+    text-align: center; 
+} 
+     
+h1{ 
+    color: #fff; 
+} 
+     
+.ketengah{ 
+    margin: 10px auto; 
+    width: 1150px; 
+}
+.kotak{ 
+    background: rgb(190, 244, 248); 
+    width: 500px; 
+    float: left; 
+    height: 250px; 
+    margin: 30px; 
+} 
+     
+.gradient1 { 
+    background: linear-gradient(rgb(252, 252, 151), rgb(131, 247, 131)); /* Standard syntax */ 
+    background: -webkit-linear-gradient(rgb(245, 149, 149), rgb(26, 85, 26)); /* For Safari 5.1 to 
+   6.0 */ 
+    background: -o-linear-gradient(rgb(164, 206, 245), rgb(121, 129, 250)); /* For Opera 11.1 to 12.0 
+   */ 
+    background: -moz-linear-gradient(rgb(255, 0, 179), rgb(141, 2, 55)); /* For Firefox 3.6 to 15 
+   */ 
+} 
+     
+.gradient2 { 
+    background: linear-gradient(to right, rgb(253, 232, 110) , rgb(79, 253, 166), rgb(163, 247, 108)); /* Standard 
+   syntax */ 
+    background: -webkit-linear-gradient(left, red , yellow, green); /* For 
+   Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient(right, right, red,orange,yellow,green,blue,indigo,violet); /* For Opera 
+   11.1 to 12.0 */ 
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For 
+   Firefox 3.6 to 15 */ 
+} 
+
+.gradient3 {
+    background: repeating-linear-gradient(#00FA9A, #FFFF00 10%, #FF4500 20%);
+  }
+     
+.gradient4 {   
+    background: radial-gradient(red, yellow, green); /* Standard syntax */ 
+    background: -webkit-radial-gradient(red, yellow, green); /* Safari 5.1 
+   to 6.0 */ 
+    background: -o-radial-gradient(red, yellow, green); /* For Opera 11.6 
+   to 12.0 */ 
+    background: -moz-radial-gradient(red, yellow, green); /* For Firefox 
+   3.6 to 15 */ 
+} 
+     
+.gradient5 { 
+    background: radial-gradient(circle, red, yellow, green); /* Standard 
+   syntax */   
+    background: -webkit-radial-gradient(circle, red, yellow, green); /* 
+   Safari */ 
+    background: -o-radial-gradient(circle, red, yellow, green); /* Opera 
+   11.6 to 12.0 */ 
+    background: -moz-radial-gradient(circle, red, yellow, green); /* 
+   Firefox 3.6 to 15 */ 
+}
+
+.gradient6 {
+    background: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+.gradient7 {
+    background: repeating-radial-gradient(red, yellow 10%, green 15%);
+  }
