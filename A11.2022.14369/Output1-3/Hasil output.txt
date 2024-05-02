@@ -1,0 +1,15 @@
+Hasil output
+1. Nama : null
+   Alamat : null
+   null
+
+2. NIM: A11.2000.00001
+3. ->Sebelum dipindah hasilnya:
+   Nama: null
+   Alamat: null
+   NIM: A11.2000.00001
+
+   ->Sesudah dipindah: 
+   NIM: A11.2000.00001
+   Nama: null
+   Alamat: null
