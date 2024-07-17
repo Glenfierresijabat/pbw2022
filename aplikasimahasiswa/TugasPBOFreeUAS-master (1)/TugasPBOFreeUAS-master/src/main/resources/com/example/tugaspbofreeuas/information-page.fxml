@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="thisPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="kembali" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#kembali" text="Kembali" />
+      <Label layoutX="286.0" layoutY="39.0" text="Info" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="namaLengkap" layoutX="73.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama lengkap :" />
+      <Text fx:id="tempatLhr" layoutX="73.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempat lahir :" />
+      <Text fx:id="jenisKelamin" layoutX="73.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis Kelamin :" />
+      <Text fx:id="agama" layoutX="73.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agama :" />
+      <Text fx:id="alamat" layoutX="73.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alamat :" />
+      <Text fx:id="kodePos" layoutX="73.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kode Pos :" />
+   </children>
+</AnchorPane>
